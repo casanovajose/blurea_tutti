@@ -32,7 +32,7 @@ def main():
                         img[y:y + h, x:x + w] = blur
 
                     # new directory for 
-                    an_directory = "anonimized/" + os.path.basename(directory)
+                    an_directory = "anonymized/" + os.path.basename(directory)
 
                     if not os.path.exists(an_directory):
                         os.makedirs(an_directory)                
